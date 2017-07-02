@@ -29,10 +29,12 @@ services.AddMvc(options =>
 
 You can now use the `[FromBody]` attribute on controller method parameters of type `byte[]`:
 
+```csharp
 [HttpPut("files/{*path}")]
 public void PutFile(string path, [FromBody] byte[] content)
 {
     ...
 }
+```
 
 You can also return `byte[]` from a controller method. The byte array takes up the entire payload of the HTTP request or response.
