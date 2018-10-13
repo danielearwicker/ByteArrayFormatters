@@ -1,7 +1,9 @@
-﻿namespace Earwicker.ByteArrayFormatters
+﻿using Microsoft.Extensions.Primitives;
+
+namespace Earwicker.ByteArrayFormatters
 {
-    public static class ByteArrayFormatters
+    public class ByteArrayFormatters
     {
-        public const string MediaType = "application/octet-stream";
+        public static readonly StringSegment MediaType = new StringSegment("application/octet-stream");
     }
 }
