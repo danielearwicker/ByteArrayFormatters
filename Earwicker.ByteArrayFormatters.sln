@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Earwicker.ByteArrayFormatters", "Earwicker.ByteArrayFormatters\Earwicker.ByteArrayFormatters.csproj", "{122FCCF0-70F5-4736-8B7E-7A4613D3230A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{122FCCF0-70F5-4736-8B7E-7A4613D3230A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122FCCF0-70F5-4736-8B7E-7A4613D3230A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122FCCF0-70F5-4736-8B7E-7A4613D3230A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122FCCF0-70F5-4736-8B7E-7A4613D3230A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1150EF8-3478-4DB0-A724-8A587BB3C0E7}
+	EndGlobalSection
+EndGlobal
